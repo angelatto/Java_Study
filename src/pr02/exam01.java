@@ -4,16 +4,10 @@ public class exam01 {
 
 	public static void main(String[] args) {
 		/*  정수 타입의 변수 선언과 값 저장 
-		 *  byte는 메모리 사용 크기가 1byte 
-		 *  char는 메모리 사용 크기가 2byte
-		 *  short는 2byte
-		 *  int는 4byte
-		 *  long은 8byte
-		 * 
-		 * -> 보통 int를 많이 쓴다.
-		 * 그 이유는? 
-		 * 
+		 * 보통 int를 많이 쓴다.
+		 * 그 이유는? byte + byte 는 결과는 어차피 int 인데, 그 이유가 byte 에서 int로 변환하기 때문이다. 
 		 * */
+		
 		// byte var1 = 1000; byte는 -128에서 127 범위의 숫자만 저장할 수 있다.
 		byte var1 = 100; 
 		short var2 = 1;
@@ -21,7 +15,7 @@ public class exam01 {
 		long var4 = 2000000000L;
 		
 		/*  문자 타입의 변수 선언과 값 저장  
-		 *  큰따옴표안에는 문자열, 작은 따옴표 안에는 하나의 문제
+		 *  큰따옴표안에는 문자열, 작은 따옴표 안에는 하나의 문자 
 		 * */
 		char var9 = 65;
 		char var10 = 'A';
@@ -48,7 +42,6 @@ public class exam01 {
 		/* 논리 타입의 변수 선언과 값 저장 */
 		boolean var7 = true;
 		boolean var8 = false;
-		
 	
 	}
 
