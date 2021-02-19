@@ -20,7 +20,7 @@ public class 확인9 {
 			System.out.println("------------------------");
 			System.out.print("선택> ");
 			
-			int selectNo = scanner.nextInt();
+			int selectNo = scanner.nextInt(); 
 			
 			if(selectNo == 1) {
 				System.out.print("학생수> ");
