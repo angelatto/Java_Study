@@ -23,7 +23,7 @@ public class Example {
 		System.out.println(list.size()); // 실제 저장된 개수가 몇개냐 
 		
 		// 객체 얻기 
-	//	String name = (String) list.get(0); // 강제 타입 변환 
+		//	String name = (String) list.get(0); // 강제 타입 변환 
 		// 위에 타입 지정해주면 타입 변환 안해줘도 됨  
 		// 모두 같은 타입인게 보장이 되기 때문에 Object로 안가져옴 
 		String name1 = list.get(0); 
